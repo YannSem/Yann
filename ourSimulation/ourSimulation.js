@@ -19,8 +19,8 @@ function buildWorld() {
    
 function setup() {
 	w = Math.min(window.innerWidth, 16/9*window.innerHeight)
-	document.getElementById("left").style.left = 0.40 * w + "px"
-	document.getElementById("right").style.right = 0.40 * w + (window.innerWidth - w) + "px"
+	document.getElementById("left").style.left = 0.40 * w + "px" //Linke Zahl platzieren
+	document.getElementById("right").style.right = 0.40 * w + (window.innerWidth - w) + "px" //Rechte Zahl platzieren
 	t = 0;
 	dt = 0.016;     //Zeitschritt in Sekunden
 	Player1.vy = 0; //anullierung Geschwindigkeit Player links
